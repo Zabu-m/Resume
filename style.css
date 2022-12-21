@@ -1,0 +1,52 @@
+body, html{
+	font-family: Arial, Helvetica, sans-serif; 
+  background-color: lightslategray;
+  display: contents;
+  max-width: 1000px;
+  position: absolute;
+  padding: 0 100px;
+}
+h1{
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+c{
+  position: absolute;
+  right: 0;
+  padding: 0 20px;
+  margin: -5px 0;
+}
+a{
+  position: absolute;
+  left: 0;
+  padding: 0 20px;
+  margin: -5px 0;
+}
+h2{
+  text-align: center;
+}
+.summary{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  background-color: #9f9faf;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.education{    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: inherit;
+    height: 100%;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+    width: 260px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    top: 450px;
+    right: 0;
+    display: block;
+}
