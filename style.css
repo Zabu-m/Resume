@@ -1,26 +1,48 @@
 body, html{
 	font-family: Arial, Helvetica, sans-serif; 
-  background-color: lightslategray;
+  background-color: #bfcfcf;
   display: contents;
-  max-width: 1000px;
+  max-width: 2000px;
   position: absolute;
-  padding: 0 100px;
+  padding: 0 200px;
 }
 h1{
   text-align: center;
   padding: 0;
   margin: 5px;
 }
-c{
+.phone{
   position: absolute;
   right: 0;
-  padding: 0 20px;
+  padding: 0 200px;
   margin: -5px 0;
 }
-a{
+.phone a{
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.16), 0px 3px 3px rgba(0,0,0,0.10);
+transition: color .5s box-shadow .5s;}
+  .phone a:hover {
+    color: dimgrey;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.16), 0px 3px 10px rgba(0,0,0,0.1);
+  }
+.e-mail a{
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.10);
+  transition: color .5s box-shadow .5s;}
+  .e-mail a:hover {
+    color: dimgrey;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.16), 0px 3px 10px rgba(0,0,0,0.1);
+  }
+.e-mail{
   position: absolute;
   left: 0;
-  padding: 0 20px;
+  padding: 0 200px;
   margin: -5px 0;
 }
 h2{
@@ -31,10 +53,39 @@ h2{
   width: 100%;
   margin: auto;
   padding: 1px;
-  background-color: #9f9faf;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: #aababa;
+  border-radius: 25px;
+  margin: 5px 0px;
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
 }
-.education{    
+.skillsandcompetencies{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  background-color: #aababa;
+  border-radius: 25px;
+  margin: 5px 0px;
+  }
+  .experience{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  background-color: #aababa;
+  border-radius: 25px;
+  margin: 5px 0px;
+}
+.education{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  background-color: #aababa;
+  border-radius: 25px;
+  margin: 5px 0px;
+  }
+/*.education{    
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -47,6 +98,69 @@ h2{
     width: 260px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     top: 450px;
-    right: 0;
+    left: 0;
     display: block;
+}*/
+.sidenav {
+  height: 100%; 
+  width: 180px;
+  position: fixed; 
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #a1b1c1; 
+  overflow-x: hidden; 
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; 
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.sidenav a {
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #417181;
+  display: block;
+  transition: 0.3s;
+  outline: 1px solid lightblue;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;
+    padding-bottom: 0px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 800px) {
+   .sidenav {width: 10px;
+    opacity: 5px;
+    transition: width 1s opacity 1s;}
+   .sidenav:hover {opacity: 180px;
+    width: 180px;
+   }
+  body, html {padding: 0px 20px;
+    margin: 0px 20px;}
+  .phone{
+  position: absolute;
+  right: 0;
+  padding: 0 5px;
+  margin: -5px 0;
+}
+.e-mail{
+  position: absolute;
+  left: 0;
+  padding: 0 5px;
+  margin: -5px 0;
+}
 }
