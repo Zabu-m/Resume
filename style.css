@@ -1,21 +1,31 @@
 body, html{
-	font-family: Arial, Helvetica, sans-serif; 
-  background-color: #bfcfcf;
+	font-family: 'Arimo', sans-serif; 
+  background-image: url("jpg/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: contents;
   max-width: 2000px;
   position: absolute;
   padding: 0 200px;
 }
+br {
+  line-height: 0.7;
+}
 h1{
   text-align: center;
   padding: 0;
-  margin: 5px;
+  margin: 10px;
+}
+h3{
+  text-align: left;
+  padding: 0px 15px;
 }
 .phone{
   position: absolute;
   right: 0;
   padding: 0 200px;
-  margin: -5px 0;
+  margin: -15px 0;
 }
 .phone a{
   text-decoration: none;
@@ -45,15 +55,24 @@ transition: color .5s box-shadow .5s;}
   padding: 0 200px;
   margin: -5px 0;
 }
+.name{
+background-color: rgba(136, 136, 136, 0.2);
+border-radius: 5px;
+padding: 2px;
+margin: 10px;
+}
 h2{
   text-align: center;
 }
+
 .summary{
   height: 100%;
   width: 100%;
   margin: auto;
   padding: 1px;
-  background-color: #aababa;
+  background-image: url("jpg/bgimg4.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 25px;
   margin: 5px 0px;
   /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
@@ -63,7 +82,9 @@ h2{
   width: 100%;
   margin: auto;
   padding: 1px;
-  background-color: #aababa;
+  background-image: url("jpg/bgimg4.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 25px;
   margin: 5px 0px;
   }
@@ -72,7 +93,9 @@ h2{
   width: 100%;
   margin: auto;
   padding: 1px;
-  background-color: #aababa;
+  background-image: url("jpg/bgimg4.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 25px;
   margin: 5px 0px;
 }
@@ -81,7 +104,9 @@ h2{
   width: 100%;
   margin: auto;
   padding: 1px;
-  background-color: #aababa;
+  background-image: url("jpg/bgimg4.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 25px;
   margin: 5px 0px;
   }
@@ -108,7 +133,7 @@ h2{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #a1b1c1; 
+    background-color: rgba(87, 83, 95, 0.4);
   overflow-x: hidden; 
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; 
@@ -118,7 +143,7 @@ h2{
   padding: 20px 20px 20px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #417181;
+  color: #444444;
   display: block;
   transition: 0.3s;
   outline: 1px solid lightblue;
@@ -146,8 +171,10 @@ h2{
    .sidenav {width: 10px;
     opacity: 5px;
     transition: width 1s opacity 1s;}
+    .sidenav a {color: #C9D4CB}
    .sidenav:hover {opacity: 180px;
     width: 180px;
+    background-color: rgba(87, 83, 95, 0.8);
    }
   body, html {padding: 0px 20px;
     margin: 0px 20px;}
@@ -155,7 +182,7 @@ h2{
   position: absolute;
   right: 0;
   padding: 0 5px;
-  margin: -5px 0;
+  margin: -17px 0;
 }
 .e-mail{
   position: absolute;
