@@ -7,7 +7,7 @@ body, html{
   display: contents;
   max-width: 2000px;
   position: absolute;
-  padding: 0 200px;
+  padding: 0 50px 0 220px;
 }
 br {
   line-height: 0.7;
@@ -24,8 +24,8 @@ h3{
 .phone{
   position: absolute;
   right: 0;
-  padding: 0 200px;
-  margin: -15px 0;
+  padding: 0 50px;
+  margin: -17px 0;
 }
 .phone a{
   text-decoration: none;
@@ -52,7 +52,7 @@ transition: color .5s box-shadow .5s;}
 .e-mail{
   position: absolute;
   left: 0;
-  padding: 0 200px;
+  padding: 0 220px;
   margin: -5px 0;
 }
 .name{
@@ -85,6 +85,7 @@ h2{
   background-image: url("jpg/bgimg4.png") ;
   background-repeat: no-repeat;
   background-size: cover;
+  background: ;
   border-radius: 25px;
   margin: 5px 0px;
   }
@@ -128,23 +129,25 @@ h2{
 }*/
 .sidenav {
   height: 100%; 
-  width: 180px;
+  width: 210px;
   position: fixed; 
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-    background-color: rgba(87, 83, 95, 0.4);
+    background-color: rgba(87, 83, 95, 0.2);
   overflow-x: hidden; 
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; 
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .sidenav a {
-  padding: 20px 20px 20px 32px;
+  padding: 20px 20px 20px 4px;
+  width: 210px;
   text-decoration: none;
   font-size: 25px;
-  color: #444444;
-  display: block;
+  color: rgba(87, 83, 95, 1);
+  display: table;
+  text-align: center;
   transition: 0.3s;
   outline: 1px solid lightblue;
 }
@@ -167,26 +170,32 @@ h2{
     padding-bottom: 0px;}
   .sidenav a {font-size: 18px;}
 }
-@media screen and (max-width: 800px) {
-   .sidenav {width: 10px;
-    opacity: 5px;
-    transition: width 1s opacity 1s;}
-    .sidenav a {color: #C9D4CB}
-   .sidenav:hover {opacity: 180px;
-    width: 180px;
+@media screen and (max-width: 900px) {
+   .sidenav {width: 30px;
+    transition: width 1s opacity 1s}
+    .sidenav a {
+        height: 30px;
+        color: rgba(201, 212, 203, 1);
+        text-align: left;
+        text-decoration: none;
+         display: table;
+      }
+   .sidenav:hover {
+    width: 210px ;   
+
     background-color: rgba(87, 83, 95, 0.8);
-   }
-  body, html {padding: 0px 20px;
-    margin: 0px 20px;}
+      }
+  body, html {padding: 0px 50px;
+    margin: 0px 0px;}
   .phone{
   position: absolute;
   right: 0;
-  padding: 0 5px;
+  padding: 0 50px;
   margin: -17px 0;
 }
 .e-mail{
   position: absolute;
   left: 0;
-  padding: 0 5px;
+  padding: 0 50px;
   margin: -5px 0;
 }
