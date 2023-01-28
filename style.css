@@ -63,6 +63,7 @@ margin: 10px;
 }
 h2{
   text-align: center;
+  text-decoration: none;
 }
 
 .summary{
@@ -76,6 +77,10 @@ h2{
   border-radius: 25px;
   margin: 5px 0px;
   /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+.summary a {
+  text-decoration: none;
+  color: #000000;
 }
 .skillsandcompetencies{
   height: 100%;
